@@ -53,7 +53,7 @@ def getKey(dev):
 
 if __name__ == "__main__":
     # Identified & copied from reading output of all devices:
-    laptop_keyboard_name = "Asus Keyboard"
+    internal_keyboard_name = "Asus Keyboard"
     external_keyboard_names = ["RK-KB3.0", "RK-KB5.0", "Compx 2.4G Wireless Receiver", "SINO WEALTH Gaming KB "]
 
     #Some mfs decided to add a trailing space at that name to troll me.
@@ -69,7 +69,7 @@ if __name__ == "__main__":
         exit(0)
 
     while 1:
-        devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
+        devices = [evdev.IsnputDevice(path) for path in evdev.list_devices()]
         external_path = find_external(devices, external_keyboard_names)
         print(external_path)
         if (external_path == ""):
