@@ -1,17 +1,10 @@
-# Disable keyboard
+Forked from []
+# external-over-internal-keyboard
 
 
 ## Description
 
-Intercept (grab) kernel events from laptop keyboard at kernel level, so one can place an external keyboard on-top of laptop keyboard without it triggering key-events.
-
-This way, one can comfortably have a stack of:
-1. couch
-2. human
-3. laptop
-4. keyboard
-5. hands busily engaged with Emacs
-
+Grabs
 
 ## Installation
 
