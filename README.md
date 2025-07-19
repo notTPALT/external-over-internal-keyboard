@@ -1,10 +1,14 @@
-Forked from []
-# external-over-internal-keyboard
+Forked from [impaktor/disable-keyboard](https://github.com/impaktor/disable-keyboard)
 
+# external-over-internal-keyboard
 
 ## Description
 
-Grabs
+Disable laptop keyboard automatically whenever an external one is connected.
+
+To re-enable the laptop keyboard, either:
+- Cancel the script
+- Disconnect all external keyboards whose names added into the script and then press ESC (configurable).
 
 ## Installation
 
